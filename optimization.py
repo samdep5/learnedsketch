@@ -75,12 +75,12 @@ for i in range(k):
         t = thresholds[i]
         prevt = thresholds[i-1] if i > 0 else 0
 
-        return t - prevt - .0000000001
+        return t - prevt - .0001
 
     constr.append({'type': 'ineq', 'fun': ineq_constr})
-    
+
 constr.append({'type': 'eq', 'fun': lambda x: x[0]}) #G(0) = 0
-constr.append({'type': 'eq', 'fun': lambda x: x[k-1] - 1}) #G(1) = 1
+# constr.append({'type': 'eq', 'fun': lambda x: x[k-1] - 1}) #G(1) = 1
 
 
 
@@ -97,6 +97,8 @@ constr.append({'type': 'eq', 'fun': lambda x: x[k-1] - 1}) #G(1) = 1
 # upperConstr.append(1) #G(1) <= 1
 # upperConstr.append(0) #N(sum(gti - gt(i-1)) - 1) <= 0
 
+
+
 # #middle constraints, aka array of vars 
 # constr = []
 # for i in range(k): 
@@ -111,6 +113,7 @@ for i in range(k):
     # t = i*(N/k)
     # initGuess.append(getG(t)) #G(t)
     initGuess.append((i/k)) #t
+    
 
 initGuess += [epsilon]*k #assume equal epsilons, equal to overall epsilon 
 print("initGuess: ", initGuess)
