@@ -16,7 +16,7 @@ def findBuckets(k=4, N=1000, epsilon=.01/1000, delta=0.05, z=2, verbose=False):
     #delta = 0.05 #probability bound 
     #z = 5 #zipf parameter
 
-    m = min(1, 1/z)
+    m = -1*min(1, 1/z)
     c = pow(np.log(1/delta)*m, (m-2)/(m-1)) #constant from the paper
     
 
@@ -188,5 +188,33 @@ def getThresholdsFromGts(Gts, file=None):
 
     return thresholds
 
+def getEpsilonsFromGts(Gts, k=4, epsilon=.01/1000, z=2): 
+    m = min(1, 1/z)
+    eps = []
+    Gts.append(1)
+    Garr = [Gts[i] - Gts[i-1] if i > 0 else Gts[i] for i in range(k - 1)]
+    for i in range(len(Gts)):
+        gt = Gts[i]
+        prevgt = Gts[i-1] if i > 0 else 0
+        
+        G = gt - prevgt
+
+        
+        powArr = np.power(Garr, 1/(m-1))
+        e = k*epsilon*pow(G, 1/(m-1)) / np.sum(powArr)
+        eps.append(e)
+    return eps
+
+def getSizeProportionsFromEpsilons(epsilons, Gts, k=4):
+    Gts.append(1)
+    Garr = [Gts[i] - Gts[i-1] if i > 0 else Gts[i] for i in range(k - 1)]
+
+
+
+
 thresholds = getThresholdsFromGts(Gts, file='test.txt')
-print("Thresholds: ", thresholds)
+epsilons = getEpsilonsFromGts(Gts, k=6)#, epsilon=.01/1000, z=2)
+
+
+
+print("Thresholds: ", thresholds, "epsilons: ", epsilons)
