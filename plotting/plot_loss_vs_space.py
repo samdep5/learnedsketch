@@ -81,5 +81,6 @@ if __name__ == '__main__':
     title = 'loss vs space - %s' % args.title
     ax.set_title(title)
     plt.legend(loc="upper right")
+    plt.savefig("results.png")
     plt.show()
 

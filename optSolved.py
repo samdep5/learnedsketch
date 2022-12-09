@@ -1,6 +1,7 @@
 from scipy.optimize import minimize
 import numpy as np
 import scipy
+import string
 from math import *
 #import cvxpy as cp
 
@@ -104,7 +105,7 @@ def findBuckets(k=4, N=1000, epsilon=.01/1000, delta=0.05, z=2, verbose=False):
             #     print(i, "Gt", Gt, "prevGt", prevGt, "Gt - prevGt", Gt - prevGt)
             # print("Gt", Gt, "prevGt", prevGt, "Gt - prevGt", Gt - prevGt)
 
-            return Gt - prevGt -(1/k)
+            return Gt - prevGt #-(1/k)
         
         constr.append({'type': 'ineq', 'fun': gtconstr})
 
@@ -144,6 +145,48 @@ def findBuckets(k=4, N=1000, epsilon=.01/1000, delta=0.05, z=2, verbose=False):
             arr.append(gt)
     return (res, arr)
 
-res, arr = findBuckets(k=6)
+res, Gts = findBuckets(k=6)
 print(res)
-print(arr)
+print(Gts)
+
+def getThresholdsFromGts(Gts, file=None):
+    if file != None:
+        data = []
+        with open(file, 'r') as f:
+            fst= True
+            ct = 0 
+            for line in f:
+                if fst:
+                    fst = False
+                    continue
+                line = line.replace(',', '')
+                line = line.replace('[', '')
+                line = line.replace(']', '')
+                line = line.replace(' ', '')
+                line = line.replace('\n', '')
+                line = line.upper()
+                # if ct < 10 and line: 
+                #     print(line, float(line))
+                #     ct += 1
+                if line: 
+                    data.append(float(line))
+
+    data.sort()
+    #print("len data: ", len(data))
+    thresholds = []
+
+    for i in range(len(Gts)):
+        gt = Gts[i]
+        percentileIdx = int(len(data)*gt)
+        #print('percentileIdx: ', percentileIdx, 'len(data)', len(data), 'gt', gt, 'i', i)
+        if gt == 0:
+            continue
+        elif gt == 1:
+            continue
+        else:
+            thresholds.append(data[percentileIdx])
+
+    return thresholds
+
+thresholds = getThresholdsFromGts(Gts, file='test.txt')
+print("Thresholds: ", thresholds)

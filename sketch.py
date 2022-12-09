@@ -1,5 +1,23 @@
 import numpy as np
 
+def compute_avg_loss_partitioned(counts, y, y_buckets):
+    """ Compute the loss of a sketch.
+    Args:
+        counts: estimated counts in each bucket, float - [num_buckets]
+        y: true counts of each item, float - [num_items]
+        y_bueckets: item -> bucket mapping - [num_items]
+
+    Returns:
+        Estimation error
+    """
+    assert np.sum(counts) == np.sum(y), 'counts do not have all the flows!'
+    assert len(y) == len(y_buckets)
+    if len(y) == 0:
+        return 0    # avoid division of 0
+    loss = 0
+    for i in range(len(y)):
+        loss += np.abs(y[i] - counts[y_buckets[i]]) * y[i]
+    return loss, np.sum(y)
 
 def compute_avg_loss(counts, y, y_buckets):
     """ Compute the loss of a sketch.
@@ -37,6 +55,32 @@ def random_hash(y, n_buckets):
         counts[y_buckets[i]] += y[i]
     loss = compute_avg_loss(counts, y, y_buckets)
     return counts, loss, y_buckets
+
+def count_min_partitioned(y, n_buckets, n_hash):
+    """ Count-Min
+    Args:
+        y: true counts of each item, float - [num_items]
+        n_buckets: number of buckets
+        n_hash: number of hash functions
+
+    Returns:
+        Estimation error
+    """
+    if len(y) == 0:
+        return 0,0
+
+    counts_all = np.zeros((n_hash, n_buckets))
+    y_buckets_all = np.zeros((n_hash, len(y)), dtype=int)
+    for i in range(n_hash):
+        counts, _, y_buckets = random_hash(y, n_buckets)
+        counts_all[i] = counts
+        y_buckets_all[i] = y_buckets
+
+    loss = 0
+    for i in range(len(y)):
+        y_est = np.min([counts_all[k, y_buckets_all[k, i]] for k in range(n_hash)])
+        loss += np.abs(y[i] - y_est) * y[i]
+    return loss,  np.sum(y)
 
 def count_min(y, n_buckets, n_hash):
     """ Count-Min
@@ -125,9 +169,53 @@ def cutoff_countmin_wscore(y, scores, score_cutoff, n_cm_buckets, n_hashes):
 
     space = len(y_ccm) * 4 * 2 + n_cm_buckets * n_hashes * 4
     return loss_avg, space
-
+val = None
 def cutoff_lookup(x, y, n_cm_buckets, n_hashes, d_lookup, y_cutoff, sketch='CountMin'):
     """ Learned Count-Min (use predicted scores to identify heavy hitters)
+    Args:
+        x: feature of each item - [num_items]
+        y: true counts of each item, float - [num_items]
+        n_cm_buckets: number of buckets of Count-Min
+        n_hashes: number of hash functions
+        d_lookup: x[i] -> y[i] look up table
+        y_cutoff: threshold for heavy hitters
+        sketch: type of sketch (CountMin or CountSketch)
+
+    Returns:
+        loss_avg: estimation error
+        space: space usage in bytes
+    """
+    if len(y) == 0:
+        return 0            # avoid division of 0
+    y_ccm = []
+    y_cm = []
+    for i in range(len(y)):
+        if x[i] in d_lookup:
+            if d_lookup[x[i]] > y_cutoff:
+                y_ccm.append(y[i])
+            else:
+                y_cm.append(y[i])
+        else:
+            y_cm.append(y[i])
+
+    loss_cf = 0 # put y_ccm into cutoff buckets, no loss
+    if sketch == 'CountMin':
+        loss_cm = count_min(y_cm, n_cm_buckets, n_hashes)
+    elif sketch == 'CountSketch':
+        loss_cm = count_sketch(y_cm, n_cm_buckets, n_hashes)
+    else:
+        assert False, "unknown sketch type"
+
+    assert len(y_ccm) + len(y_cm) == len(y)
+    loss_avg = (loss_cf * np.sum(y_ccm) + loss_cm * np.sum(y_cm)) / np.sum(y)
+    print('\tloss_cf %.2f\tloss_rd %.2f\tloss_avg %.2f' % (loss_cf, loss_cm, loss_avg))
+    print('\t# uniq', len(y_ccm), '# cm', len(y_cm))
+
+    space = len(y_ccm) * 4 * 2 + n_cm_buckets * n_hashes * 4
+    return loss_avg, space
+
+def partioned_count_min(x, y, n_cm_buckets, n_hashes, d_lookup, y_cutoff, sketch='CountMin'):
+    """ Partitioned Learned Count-Min (use predicted scores to identify heavy hitters)
     Args:
         x: feature of each item - [num_items]
         y: true counts of each item, float - [num_items]
@@ -158,10 +246,10 @@ def cutoff_lookup(x, y, n_cm_buckets, n_hashes, d_lookup, y_cutoff, sketch='Coun
     loss_cf = 0 # put y_ccm into cutoff buckets, no loss
     if sketch == 'CountMin':
         loss_cm = count_min(y_cm, n_cm_buckets, n_hashes)
-    elif sketch == 'CountSketch':
-        loss_cm = count_sketch(y_cm, n_cm_buckets, n_hashes)
-    else:
-        assert False, "unknown sketch type"
+    # elif sketch == 'CountSketch':
+    #     loss_cm = count_sketch(y_cm, n_cm_buckets, n_hashes)
+    # else:
+    #     assert False, "unknown sketch type"
 
     assert len(y_ccm) + len(y_cm) == len(y)
     loss_avg = (loss_cf * np.sum(y_ccm) + loss_cm * np.sum(y_cm)) / np.sum(y)
