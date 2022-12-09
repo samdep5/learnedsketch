@@ -2,6 +2,7 @@ from scipy.optimize import minimize
 import numpy as np
 import scipy
 from math import *
+from scipy.stats import zipf 
 #import cvxpy as cp
 
     #to make this work, we need to predict the CDF of the elements, to optimize over G(t) and 
@@ -10,12 +11,12 @@ k  = 3 #number of thresholds
 N = 1000
 epsilon = .01/N
 delta = 0.05 #probability bound 
-z = 5 #zipf parameter
+z = 1.5 #zipf parameter
 
-print([scipy.stats.zipf.cdf(z, i) for i in range(10)])
+print([zipf.cdf(z, i) for i in range(10)])
 def getG(t): 
-    print("t: ", t, "G(t): ", scipy.stats.zipf.cdf(t, z))
-    return scipy.stats.zipf.cdf(t, z) #need to define CDF function from prediction oracle; currently a dummy function that assumes Zipf distribution with some param z 
+    print("t: ", t, "G(t): ", zipf.cdf(t, z))
+    return zipf.cdf(t, z) #need to define CDF function from prediction oracle; currently a dummy function that assumes Zipf distribution with some param z 
 
 def gettFromGt(Gt):
     pass

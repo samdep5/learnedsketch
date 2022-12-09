@@ -125,9 +125,54 @@ def cutoff_countmin_wscore(y, scores, score_cutoff, n_cm_buckets, n_hashes):
 
     space = len(y_ccm) * 4 * 2 + n_cm_buckets * n_hashes * 4
     return loss_avg, space
-
+val = None
 def cutoff_lookup(x, y, n_cm_buckets, n_hashes, d_lookup, y_cutoff, sketch='CountMin'):
     """ Learned Count-Min (use predicted scores to identify heavy hitters)
+    Args:
+        x: feature of each item - [num_items]
+        y: true counts of each item, float - [num_items]
+        n_cm_buckets: number of buckets of Count-Min
+        n_hashes: number of hash functions
+        d_lookup: x[i] -> y[i] look up table
+        y_cutoff: threshold for heavy hitters
+        sketch: type of sketch (CountMin or CountSketch)
+
+    Returns:
+        loss_avg: estimation error
+        space: space usage in bytes
+    """
+    if len(y) == 0:
+        return 0            # avoid division of 0
+    print(y_cutoff)
+    y_ccm = []
+    y_cm = []
+    for i in range(len(y)):
+        if x[i] in d_lookup:
+            if d_lookup[x[i]] > y_cutoff:
+                y_ccm.append(y[i])
+            else:
+                y_cm.append(y[i])
+        else:
+            y_cm.append(y[i])
+
+    loss_cf = 0 # put y_ccm into cutoff buckets, no loss
+    if sketch == 'CountMin':
+        loss_cm = count_min(y_cm, n_cm_buckets, n_hashes)
+    elif sketch == 'CountSketch':
+        loss_cm = count_sketch(y_cm, n_cm_buckets, n_hashes)
+    else:
+        assert False, "unknown sketch type"
+
+    assert len(y_ccm) + len(y_cm) == len(y)
+    loss_avg = (loss_cf * np.sum(y_ccm) + loss_cm * np.sum(y_cm)) / np.sum(y)
+    print('\tloss_cf %.2f\tloss_rd %.2f\tloss_avg %.2f' % (loss_cf, loss_cm, loss_avg))
+    print('\t# uniq', len(y_ccm), '# cm', len(y_cm))
+
+    space = len(y_ccm) * 4 * 2 + n_cm_buckets * n_hashes * 4
+    return loss_avg, space
+
+def partioned_count_min(x, y, n_cm_buckets, n_hashes, d_lookup, y_cutoff, sketch='CountMin'):
+    """ Partitioned Learned Count-Min (use predicted scores to identify heavy hitters)
     Args:
         x: feature of each item - [num_items]
         y: true counts of each item, float - [num_items]
@@ -158,10 +203,10 @@ def cutoff_lookup(x, y, n_cm_buckets, n_hashes, d_lookup, y_cutoff, sketch='Coun
     loss_cf = 0 # put y_ccm into cutoff buckets, no loss
     if sketch == 'CountMin':
         loss_cm = count_min(y_cm, n_cm_buckets, n_hashes)
-    elif sketch == 'CountSketch':
-        loss_cm = count_sketch(y_cm, n_cm_buckets, n_hashes)
-    else:
-        assert False, "unknown sketch type"
+    # elif sketch == 'CountSketch':
+    #     loss_cm = count_sketch(y_cm, n_cm_buckets, n_hashes)
+    # else:
+    #     assert False, "unknown sketch type"
 
     assert len(y_ccm) + len(y_cm) == len(y)
     loss_avg = (loss_cf * np.sum(y_ccm) + loss_cm * np.sum(y_cm)) / np.sum(y)
