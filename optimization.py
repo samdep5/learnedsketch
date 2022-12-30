@@ -59,7 +59,7 @@ def findBuckets(k=4, N=1000, epsilon=.01/1000, delta=0.05, z=1.51, verbose=False
             powArr = np.power(GArr, 1/(m-1))
             for i in range(len(powArr)):
                 if powArr[i] == np.inf:
-                    powArr[i] = 0
+                    powArr[i] = 0.0001
             #e = (k-1)*epsilon*pow(G, 1/(m-1)) / np.sum([powArr])
             e = epsilons[i]
             if e < 0: 
@@ -285,6 +285,8 @@ def getSizeProportionsFromThresholds(thresholds, z, k=4):
 
 
 #thresholds = getThresholdsFromGts(Gts, file='test.txt')
+
+
 
 thresholds = [1.2, 1.9]
 Gts = getGtsFromThresholds(thresholds, file='predictionsDay50.txt')

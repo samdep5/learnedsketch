@@ -19,9 +19,9 @@ def paretoData(N, a=1.1):
 def dataElementFrequencies(data): #'ideal oracle'
     data = np.array(data)
     cts = Counter(data)
-    # ctArr = [cts[item] for item in data]
-    return cts
+    ctArr = [cts[item] for item in data]
 
+    return ctArr
 zipD = zipfData(N=100)
 def neg_zipf_likelihood(s, dataset=zipD):
     freqSet = dataElementFrequencies(dataset)
@@ -31,16 +31,7 @@ def neg_zipf_likelihood(s, dataset=zipD):
     log_likelihood = sum(np.log(probas) * dataset)
     return -log_likelihood
 
-data = np.array()
-v = zipfData(100)
-c = dataElementFrequencies(v)
-countMin = []
 
-
-- dual number consistency
-- handle multiple functions
-- documentation 
-- more consistent tests,
 
 
 # print(dat)
