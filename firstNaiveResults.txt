@@ -1,0 +1,600 @@
+thresholdstart:0.0, thresholdend:1.0, # hashes 1, # space: 66664 # cm buckets 16666 - loss 0 time: 0.04823184013366699 sec 
+thresholdstart:25.01, thresholdend:125.11, # hashes 1, # space: 66664 # cm buckets 16666 - loss 1.2705582678836764 time: 0.03371620178222656 sec 
+thresholdstart:125.11, thresholdend:625.72, # hashes 1, # space: 66664 # cm buckets 16666 - loss 0.0 time: 0.03401350975036621 sec 
+thresholdstart:625.72, thresholdend:3129.53, # hashes 1, # space: 66664 # cm buckets 16666 - loss 0.0 time: 0.026017427444458008 sec 
+thresholdstart:5.0, thresholdend:25.01, # hashes 1, # space: 66664 # cm buckets 16666 - loss 3.2992523597951573 time: 0.14284825325012207 sec 
+thresholdstart:1.0, thresholdend:5.0, # hashes 1, # space: 66664 # cm buckets 16666 - loss 16.505456332951006 time: 2.31235933303833 sec 
+thresholdstart:0.0, thresholdend:1.0, # hashes 2, # space: 66664 # cm buckets 8333 - loss 0 time: 0.025568008422851562 sec 
+thresholdstart:125.11, thresholdend:625.72, # hashes 2, # space: 66664 # cm buckets 8333 - loss 0.0 time: 0.01721978187561035 sec 
+thresholdstart:25.01, thresholdend:125.11, # hashes 2, # space: 66664 # cm buckets 8333 - loss 0.08240288686053916 time: 0.030710220336914062 sec 
+thresholdstart:625.72, thresholdend:3129.53, # hashes 2, # space: 66664 # cm buckets 8333 - loss 0.0 time: 0.02532196044921875 sec 
+thresholdstart:5.0, thresholdend:25.01, # hashes 2, # space: 66664 # cm buckets 8333 - loss 2.458148207626287 time: 0.17308402061462402 sec 
+thresholdstart:1.0, thresholdend:5.0, # hashes 2, # space: 66664 # cm buckets 8333 - loss 28.60209732918237 time: 2.1528892517089844 sec 
+thresholdstart:0.0, thresholdend:1.0, # hashes 3, # space: 66660 # cm buckets 5555 - loss 0 time: 0.039975881576538086 sec 
+thresholdstart:125.11, thresholdend:625.72, # hashes 3, # space: 66660 # cm buckets 5555 - loss 0.0 time: 0.0523226261138916 sec 
+thresholdstart:625.72, thresholdend:3129.53, # hashes 3, # space: 66660 # cm buckets 5555 - loss 0.0 time: 0.21466684341430664 sec 
+thresholdstart:25.01, thresholdend:125.11, # hashes 3, # space: 66660 # cm buckets 5555 - loss 0.0 time: 0.24861574172973633 sec 
+thresholdstart:5.0, thresholdend:25.01, # hashes 3, # space: 66660 # cm buckets 5555 - loss 2.397962278964367 time: 0.3468601703643799 sec 
+thresholdstart:1.0, thresholdend:5.0, # hashes 3, # space: 66660 # cm buckets 5555 - loss 41.59181094907787 time: 3.977226495742798 sec 
+thresholdstart:0.0, thresholdend:1.0, # hashes 4, # space: 66656 # cm buckets 4166 - loss 0 time: 0.020215988159179688 sec 
+thresholdstart:25.01, thresholdend:125.11, # hashes 4, # space: 66656 # cm buckets 4166 - loss 0.030906389301634474 time: 0.035764455795288086 sec 
+thresholdstart:125.11, thresholdend:625.72, # hashes 4, # space: 66656 # cm buckets 4166 - loss 0.0 time: 0.026292085647583008 sec 
+thresholdstart:625.72, thresholdend:3129.53, # hashes 4, # space: 66656 # cm buckets 4166 - loss 0.0 time: 0.020886898040771484 sec 
+thresholdstart:5.0, thresholdend:25.01, # hashes 4, # space: 66656 # cm buckets 4166 - loss 2.680245525757008 time: 0.14504313468933105 sec 
+thresholdstart:1.0, thresholdend:5.0, # hashes 4, # space: 66656 # cm buckets 4166 - loss 54.86450015475085 time: 3.082263708114624 sec 
+thresholdstart:0.0, thresholdend:1.0, # hashes 1, # space: 133332 # cm buckets 33333 - loss 0 time: 0.024983644485473633 sec 
+thresholdstart:25.01, thresholdend:125.11, # hashes 1, # space: 133332 # cm buckets 33333 - loss 0.4900870303544895 time: 0.028559207916259766 sec 
+thresholdstart:125.11, thresholdend:625.72, # hashes 1, # space: 133332 # cm buckets 33333 - loss 0.0 time: 0.0312347412109375 sec 
+thresholdstart:625.72, thresholdend:3129.53, # hashes 1, # space: 133332 # cm buckets 33333 - loss 0.0 time: 0.0256345272064209 sec 
+thresholdstart:5.0, thresholdend:25.01, # hashes 1, # space: 133332 # cm buckets 33333 - loss 1.73937869136199 time: 0.08493638038635254 sec 
+thresholdstart:1.0, thresholdend:5.0, # hashes 1, # space: 133332 # cm buckets 33333 - loss 8.247586797021501 time: 1.7279250621795654 sec 
+thresholdstart:0.0, thresholdend:1.0, # hashes 2, # space: 133328 # cm buckets 16666 - loss 0 time: 0.03306698799133301 sec 
+thresholdstart:25.01, thresholdend:125.11, # hashes 2, # space: 133328 # cm buckets 16666 - loss 0.0 time: 0.036412715911865234 sec 
+thresholdstart:125.11, thresholdend:625.72, # hashes 2, # space: 133328 # cm buckets 16666 - loss 0.0 time: 0.028832674026489258 sec 
+thresholdstart:5.0, thresholdend:25.01, # hashes 2, # space: 133328 # cm buckets 16666 - loss 0.7571686026800849 time: 0.12670660018920898 sec 
+thresholdstart:625.72, thresholdend:3129.53, # hashes 2, # space: 133328 # cm buckets 16666 - loss 0.0 time: 0.025136709213256836 sec 
+thresholdstart:1.0, thresholdend:5.0, # hashes 2, # space: 133328 # cm buckets 16666 - loss 13.423587670908661 time: 2.501713752746582 sec 
+thresholdstart:0.0, thresholdend:1.0, # hashes 3, # space: 133332 # cm buckets 11111 - loss 0 time: 0.028005599975585938 sec 
+thresholdstart:125.11, thresholdend:625.72, # hashes 3, # space: 133332 # cm buckets 11111 - loss 0.0 time: 0.018100500106811523 sec 
+thresholdstart:25.01, thresholdend:125.11, # hashes 3, # space: 133332 # cm buckets 11111 - loss 0.0 time: 0.03502464294433594 sec 
+thresholdstart:625.72, thresholdend:3129.53, # hashes 3, # space: 133332 # cm buckets 11111 - loss 0.0 time: 0.027765512466430664 sec 
+thresholdstart:5.0, thresholdend:25.01, # hashes 3, # space: 133332 # cm buckets 11111 - loss 0.5471156076584052 time: 0.11073946952819824 sec 
+thresholdstart:1.0, thresholdend:5.0, # hashes 3, # space: 133332 # cm buckets 11111 - loss 19.18357820379777 time: 2.841191530227661 sec 
+thresholdstart:0.0, thresholdend:1.0, # hashes 4, # space: 133328 # cm buckets 8333 - loss 0 time: 0.03325510025024414 sec 
+thresholdstart:125.11, thresholdend:625.72, # hashes 4, # space: 133328 # cm buckets 8333 - loss 0.0 time: 0.0290377140045166 sec 
+thresholdstart:25.01, thresholdend:125.11, # hashes 4, # space: 133328 # cm buckets 8333 - loss 0.0 time: 0.04121685028076172 sec 
+thresholdstart:625.72, thresholdend:3129.53, # hashes 4, # space: 133328 # cm buckets 8333 - loss 0.0 time: 0.020928382873535156 sec 
+thresholdstart:5.0, thresholdend:25.01, # hashes 4, # space: 133328 # cm buckets 8333 - loss 0.47033527826847243 time: 0.13959503173828125 sec 
+thresholdstart:1.0, thresholdend:5.0, # hashes 4, # space: 133328 # cm buckets 8333 - loss 25.22997797076119 time: 3.102778911590576 sec 
+thresholdstart:0.0, thresholdend:1.0, # hashes 1, # space: 200000 # cm buckets 50000 - loss 0 time: 0.03684353828430176 sec 
+thresholdstart:25.01, thresholdend:125.11, # hashes 1, # space: 200000 # cm buckets 50000 - loss 1.3530885162385906 time: 0.030289888381958008 sec 
+thresholdstart:125.11, thresholdend:625.72, # hashes 1, # space: 200000 # cm buckets 50000 - loss 0.0 time: 0.02799391746520996 sec 
+thresholdstart:625.72, thresholdend:3129.53, # hashes 1, # space: 200000 # cm buckets 50000 - loss 0.0 time: 0.025136470794677734 sec 
+thresholdstart:5.0, thresholdend:25.01, # hashes 1, # space: 200000 # cm buckets 50000 - loss 1.0965508627304035 time: 0.08593392372131348 sec 
+thresholdstart:1.0, thresholdend:5.0, # hashes 1, # space: 200000 # cm buckets 50000 - loss 5.497638684071586 time: 2.0039868354797363 sec 
+thresholdstart:0.0, thresholdend:1.0, # hashes 2, # space: 200000 # cm buckets 25000 - loss 0 time: 0.03411078453063965 sec 
+thresholdstart:25.01, thresholdend:125.11, # hashes 2, # space: 200000 # cm buckets 25000 - loss 0.0 time: 0.028061866760253906 sec 
+thresholdstart:625.72, thresholdend:3129.53, # hashes 2, # space: 200000 # cm buckets 25000 - loss 0.0 time: 0.016434192657470703 sec 
+thresholdstart:125.11, thresholdend:625.72, # hashes 2, # space: 200000 # cm buckets 25000 - loss 0.0 time: 0.029361724853515625 sec 
+thresholdstart:5.0, thresholdend:25.01, # hashes 2, # space: 200000 # cm buckets 25000 - loss 0.3916457006227361 time: 0.09196949005126953 sec 
+thresholdstart:1.0, thresholdend:5.0, # hashes 2, # space: 200000 # cm buckets 25000 - loss 8.49577075026854 time: 2.256589412689209 sec 
+thresholdstart:0.0, thresholdend:1.0, # hashes 3, # space: 199992 # cm buckets 16666 - loss 0 time: 0.04094982147216797 sec 
+thresholdstart:125.11, thresholdend:625.72, # hashes 3, # space: 199992 # cm buckets 16666 - loss 0.0 time: 0.029088497161865234 sec 
+thresholdstart:25.01, thresholdend:125.11, # hashes 3, # space: 199992 # cm buckets 16666 - loss 0.0 time: 0.040288686752319336 sec 
+thresholdstart:625.72, thresholdend:3129.53, # hashes 3, # space: 199992 # cm buckets 16666 - loss 0.0 time: 0.0288238525390625 sec 
+thresholdstart:5.0, thresholdend:25.01, # hashes 3, # space: 199992 # cm buckets 16666 - loss 0.21594133076387773 time: 0.1224367618560791 sec 
+thresholdstart:1.0, thresholdend:5.0, # hashes 3, # space: 199992 # cm buckets 16666 - loss 11.991148251315382 time: 2.8499274253845215 sec 
+thresholdstart:0.0, thresholdend:1.0, # hashes 4, # space: 200000 # cm buckets 12500 - loss 0 time: 0.030274629592895508 sec 
+thresholdstart:125.11, thresholdend:625.72, # hashes 4, # space: 200000 # cm buckets 12500 - loss 0.0 time: 0.020116329193115234 sec 
+thresholdstart:625.72, thresholdend:3129.53, # hashes 4, # space: 200000 # cm buckets 12500 - loss 0.0 time: 0.0208127498626709 sec 
+thresholdstart:25.01, thresholdend:125.11, # hashes 4, # space: 200000 # cm buckets 12500 - loss 0.0 time: 0.03943657875061035 sec 
+thresholdstart:5.0, thresholdend:25.01, # hashes 4, # space: 200000 # cm buckets 12500 - loss 0.11778455828560212 time: 0.12488818168640137 sec 
+thresholdstart:1.0, thresholdend:5.0, # hashes 4, # space: 200000 # cm buckets 12500 - loss 15.713466965244779 time: 3.205319404602051 sec 
+thresholdstart:0.0, thresholdend:1.0, # hashes 1, # space: 266664 # cm buckets 66666 - loss 0 time: 0.027834177017211914 sec 
+thresholdstart:125.11, thresholdend:625.72, # hashes 1, # space: 266664 # cm buckets 66666 - loss 0.0 time: 0.02529430389404297 sec 
+thresholdstart:25.01, thresholdend:125.11, # hashes 1, # space: 266664 # cm buckets 66666 - loss 0.219825939291021 time: 0.03715062141418457 sec 
+thresholdstart:625.72, thresholdend:3129.53, # hashes 1, # space: 266664 # cm buckets 66666 - loss 0.0 time: 0.024764299392700195 sec 
+thresholdstart:5.0, thresholdend:25.01, # hashes 1, # space: 266664 # cm buckets 66666 - loss 0.8732580340095998 time: 0.07614850997924805 sec 
+thresholdstart:1.0, thresholdend:5.0, # hashes 1, # space: 266664 # cm buckets 66666 - loss 4.124004587907587 time: 2.0683021545410156 sec 
+thresholdstart:0.0, thresholdend:1.0, # hashes 2, # space: 266664 # cm buckets 33333 - loss 0 time: 0.03715872764587402 sec 
+thresholdstart:25.01, thresholdend:125.11, # hashes 2, # space: 266664 # cm buckets 33333 - loss 0.0 time: 0.02545022964477539 sec 
+thresholdstart:125.11, thresholdend:625.72, # hashes 2, # space: 266664 # cm buckets 33333 - loss 0.0 time: 0.024648666381835938 sec 
+thresholdstart:625.72, thresholdend:3129.53, # hashes 2, # space: 266664 # cm buckets 33333 - loss 0.0 time: 0.019999980926513672 sec 
+thresholdstart:5.0, thresholdend:25.01, # hashes 2, # space: 266664 # cm buckets 33333 - loss 0.18894420355798228 time: 0.1079411506652832 sec 
+thresholdstart:1.0, thresholdend:5.0, # hashes 2, # space: 266664 # cm buckets 33333 - loss 6.0848872139385 time: 2.2983829975128174 sec 
+thresholdstart:0.0, thresholdend:1.0, # hashes 3, # space: 266664 # cm buckets 22222 - loss 0 time: 0.04490518569946289 sec 
+thresholdstart:25.01, thresholdend:125.11, # hashes 3, # space: 266664 # cm buckets 22222 - loss 0.0 time: 0.045267343521118164 sec 
+thresholdstart:125.11, thresholdend:625.72, # hashes 3, # space: 266664 # cm buckets 22222 - loss 0.0 time: 0.0374147891998291 sec 
+thresholdstart:625.72, thresholdend:3129.53, # hashes 3, # space: 266664 # cm buckets 22222 - loss 0.0 time: 0.030228376388549805 sec 
+thresholdstart:5.0, thresholdend:25.01, # hashes 3, # space: 266664 # cm buckets 22222 - loss 0.08789679353353674 time: 0.1400282382965088 sec 
+thresholdstart:1.0, thresholdend:5.0, # hashes 3, # space: 266664 # cm buckets 22222 - loss 8.494838603965263 time: 2.607403516769409 sec 
+thresholdstart:0.0, thresholdend:1.0, # hashes 4, # space: 266656 # cm buckets 16666 - loss 0 time: 0.02983689308166504 sec 
+thresholdstart:625.72, thresholdend:3129.53, # hashes 4, # space: 266656 # cm buckets 16666 - loss 0.0 time: 0.020795345306396484 sec 
+thresholdstart:125.11, thresholdend:625.72, # hashes 4, # space: 266656 # cm buckets 16666 - loss 0.0 time: 0.031870365142822266 sec 
+thresholdstart:25.01, thresholdend:125.11, # hashes 4, # space: 266656 # cm buckets 16666 - loss 0.0 time: 0.03907346725463867 sec 
+thresholdstart:5.0, thresholdend:25.01, # hashes 4, # space: 266656 # cm buckets 16666 - loss 0.038898702781792555 time: 0.1251659393310547 sec 
+thresholdstart:1.0, thresholdend:5.0, # hashes 4, # space: 266656 # cm buckets 16666 - loss 11.129786807945091 time: 3.312252998352051 sec 
+thresholdstart:0.0, thresholdend:1.0, # hashes 1, # space: 333332 # cm buckets 83333 - loss 0 time: 0.03592562675476074 sec 
+thresholdstart:25.01, thresholdend:125.11, # hashes 1, # space: 333332 # cm buckets 83333 - loss 0.08830396943324136 time: 0.029951810836791992 sec 
+thresholdstart:125.11, thresholdend:625.72, # hashes 1, # space: 333332 # cm buckets 83333 - loss 0.0 time: 0.025980234146118164 sec 
+thresholdstart:625.72, thresholdend:3129.53, # hashes 1, # space: 333332 # cm buckets 83333 - loss 0.0 time: 0.02274155616760254 sec 
+thresholdstart:5.0, thresholdend:25.01, # hashes 1, # space: 333332 # cm buckets 83333 - loss 0.5882268972039327 time: 0.09126663208007812 sec 
+thresholdstart:1.0, thresholdend:5.0, # hashes 1, # space: 333332 # cm buckets 83333 - loss 3.298975003186047 time: 1.7989206314086914 sec 
+thresholdstart:0.0, thresholdend:1.0, # hashes 2, # space: 333328 # cm buckets 41666 - loss 0 time: 0.03952765464782715 sec 
+thresholdstart:25.01, thresholdend:125.11, # hashes 2, # space: 333328 # cm buckets 41666 - loss 0.05603905752494163 time: 0.028455257415771484 sec 
+thresholdstart:125.11, thresholdend:625.72, # hashes 2, # space: 333328 # cm buckets 41666 - loss 0.0 time: 0.02405405044555664 sec 
+thresholdstart:625.72, thresholdend:3129.53, # hashes 2, # space: 333328 # cm buckets 41666 - loss 0.0 time: 0.022507667541503906 sec 
+thresholdstart:5.0, thresholdend:25.01, # hashes 2, # space: 333328 # cm buckets 41666 - loss 0.14237282086968936 time: 0.08800077438354492 sec 
+thresholdstart:1.0, thresholdend:5.0, # hashes 2, # space: 333328 # cm buckets 41666 - loss 4.678405884173539 time: 2.414919853210449 sec 
+thresholdstart:0.0, thresholdend:1.0, # hashes 3, # space: 333324 # cm buckets 27777 - loss 0 time: 0.029303312301635742 sec 
+thresholdstart:125.11, thresholdend:625.72, # hashes 3, # space: 333324 # cm buckets 27777 - loss 0.0 time: 0.018607616424560547 sec 
+thresholdstart:25.01, thresholdend:125.11, # hashes 3, # space: 333324 # cm buckets 27777 - loss 0.0 time: 0.03470301628112793 sec 
+thresholdstart:625.72, thresholdend:3129.53, # hashes 3, # space: 333324 # cm buckets 27777 - loss 0.0 time: 0.020688295364379883 sec 
+thresholdstart:5.0, thresholdend:25.01, # hashes 3, # space: 333324 # cm buckets 27777 - loss 0.04931927270131863 time: 0.11700177192687988 sec 
+thresholdstart:1.0, thresholdend:5.0, # hashes 3, # space: 333324 # cm buckets 27777 - loss 6.466866932474011 time: 2.747205972671509 sec 
+thresholdstart:0.0, thresholdend:1.0, # hashes 4, # space: 333328 # cm buckets 20833 - loss 0 time: 0.02544713020324707 sec 
+thresholdstart:25.01, thresholdend:125.11, # hashes 4, # space: 333328 # cm buckets 20833 - loss 0.0 time: 0.0298004150390625 sec 
+thresholdstart:625.72, thresholdend:3129.53, # hashes 4, # space: 333328 # cm buckets 20833 - loss 0.0 time: 0.018967151641845703 sec 
+thresholdstart:125.11, thresholdend:625.72, # hashes 4, # space: 333328 # cm buckets 20833 - loss 0.0 time: 0.032500505447387695 sec 
+thresholdstart:5.0, thresholdend:25.01, # hashes 4, # space: 333328 # cm buckets 20833 - loss 0.024570419142444195 time: 0.12630796432495117 sec 
+thresholdstart:1.0, thresholdend:5.0, # hashes 4, # space: 333328 # cm buckets 20833 - loss 8.430484097074299 time: 3.0743281841278076 sec 
+thresholdstart:0.0, thresholdend:1.0, # hashes 1, # space: 400000 # cm buckets 100000 - loss 0 time: 0.0312650203704834 sec 
+thresholdstart:125.11, thresholdend:625.72, # hashes 1, # space: 400000 # cm buckets 100000 - loss 0.0 time: 0.018140554428100586 sec 
+thresholdstart:625.72, thresholdend:3129.53, # hashes 1, # space: 400000 # cm buckets 100000 - loss 0.0 time: 0.01944446563720703 sec 
+thresholdstart:25.01, thresholdend:125.11, # hashes 1, # space: 400000 # cm buckets 100000 - loss 0.0 time: 0.03487706184387207 sec 
+thresholdstart:5.0, thresholdend:25.01, # hashes 1, # space: 400000 # cm buckets 100000 - loss 0.5587138447263709 time: 0.10210466384887695 sec 
+thresholdstart:1.0, thresholdend:5.0, # hashes 1, # space: 400000 # cm buckets 100000 - loss 2.7395634205399895 time: 1.72593355178833 sec 
+thresholdstart:0.0, thresholdend:1.0, # hashes 2, # space: 400000 # cm buckets 50000 - loss 0 time: 0.03445267677307129 sec 
+thresholdstart:25.01, thresholdend:125.11, # hashes 2, # space: 400000 # cm buckets 50000 - loss 0.0 time: 0.027179241180419922 sec 
+thresholdstart:125.11, thresholdend:625.72, # hashes 2, # space: 400000 # cm buckets 50000 - loss 0.0 time: 0.02662062644958496 sec 
+thresholdstart:625.72, thresholdend:3129.53, # hashes 2, # space: 400000 # cm buckets 50000 - loss 0.0 time: 0.026406526565551758 sec 
+thresholdstart:5.0, thresholdend:25.01, # hashes 2, # space: 400000 # cm buckets 50000 - loss 0.09835305033634888 time: 0.10211730003356934 sec 
+thresholdstart:1.0, thresholdend:5.0, # hashes 2, # space: 400000 # cm buckets 50000 - loss 3.7451417335736523 time: 2.2090232372283936 sec 
+thresholdstart:0.0, thresholdend:1.0, # hashes 3, # space: 399996 # cm buckets 33333 - loss 0 time: 0.02787160873413086 sec 
+thresholdstart:125.11, thresholdend:625.72, # hashes 3, # space: 399996 # cm buckets 33333 - loss 0.0 time: 0.02620220184326172 sec 
+thresholdstart:625.72, thresholdend:3129.53, # hashes 3, # space: 399996 # cm buckets 33333 - loss 0.0 time: 0.021681547164916992 sec 
+thresholdstart:25.01, thresholdend:125.11, # hashes 3, # space: 399996 # cm buckets 33333 - loss 0.0 time: 0.04099106788635254 sec 
+thresholdstart:5.0, thresholdend:25.01, # hashes 3, # space: 399996 # cm buckets 33333 - loss 0.030137572935067716 time: 0.12023425102233887 sec 
+thresholdstart:1.0, thresholdend:5.0, # hashes 3, # space: 399996 # cm buckets 33333 - loss 5.128701731388935 time: 2.796813488006592 sec 
+thresholdstart:0.0, thresholdend:1.0, # hashes 4, # space: 400000 # cm buckets 25000 - loss 0 time: 0.036206960678100586 sec 
+thresholdstart:25.01, thresholdend:125.11, # hashes 4, # space: 400000 # cm buckets 25000 - loss 0.0 time: 0.03858542442321777 sec 
+thresholdstart:125.11, thresholdend:625.72, # hashes 4, # space: 400000 # cm buckets 25000 - loss 0.0 time: 0.030919313430786133 sec 
+thresholdstart:625.72, thresholdend:3129.53, # hashes 4, # space: 400000 # cm buckets 25000 - loss 0.0 time: 0.0282745361328125 sec 
+thresholdstart:5.0, thresholdend:25.01, # hashes 4, # space: 400000 # cm buckets 25000 - loss 0.01564869832093214 time: 0.15488862991333008 sec 
+thresholdstart:1.0, thresholdend:5.0, # hashes 4, # space: 400000 # cm buckets 25000 - loss 6.670573670508129 time: 3.2232749462127686 sec 
+thresholdstart:0.0, thresholdend:1.0, # hashes 1, # space: 466664 # cm buckets 116666 - loss 0 time: 0.03313040733337402 sec 
+thresholdstart:25.01, thresholdend:125.11, # hashes 1, # space: 466664 # cm buckets 116666 - loss 0.0 time: 0.030377626419067383 sec 
+thresholdstart:625.72, thresholdend:3129.53, # hashes 1, # space: 466664 # cm buckets 116666 - loss 0.0 time: 0.01639246940612793 sec 
+thresholdstart:125.11, thresholdend:625.72, # hashes 1, # space: 466664 # cm buckets 116666 - loss 0.0 time: 0.023541688919067383 sec 
+thresholdstart:5.0, thresholdend:25.01, # hashes 1, # space: 466664 # cm buckets 116666 - loss 0.461145905822315 time: 0.09461808204650879 sec 
+thresholdstart:1.0, thresholdend:5.0, # hashes 1, # space: 466664 # cm buckets 116666 - loss 2.345840843301109 time: 1.8031511306762695 sec 
+thresholdstart:0.0, thresholdend:1.0, # hashes 2, # space: 466664 # cm buckets 58333 - loss 0 time: 0.02918100357055664 sec 
+thresholdstart:25.01, thresholdend:125.11, # hashes 2, # space: 466664 # cm buckets 58333 - loss 0.0 time: 0.03759312629699707 sec 
+thresholdstart:125.11, thresholdend:625.72, # hashes 2, # space: 466664 # cm buckets 58333 - loss 0.0 time: 0.031699180603027344 sec 
+thresholdstart:625.72, thresholdend:3129.53, # hashes 2, # space: 466664 # cm buckets 58333 - loss 0.0 time: 0.028589487075805664 sec 
+thresholdstart:5.0, thresholdend:25.01, # hashes 2, # space: 466664 # cm buckets 58333 - loss 0.08516674696215407 time: 0.09866070747375488 sec 
+thresholdstart:1.0, thresholdend:5.0, # hashes 2, # space: 466664 # cm buckets 58333 - loss 3.095271906348426 time: 2.4078404903411865 sec 
+thresholdstart:0.0, thresholdend:1.0, # hashes 3, # space: 466656 # cm buckets 38888 - loss 0 time: 0.03790903091430664 sec 
+thresholdstart:625.72, thresholdend:3129.53, # hashes 3, # space: 466656 # cm buckets 38888 - loss 0.0 time: 0.0212857723236084 sec 
+thresholdstart:125.11, thresholdend:625.72, # hashes 3, # space: 466656 # cm buckets 38888 - loss 0.0 time: 0.03249001502990723 sec 
+thresholdstart:25.01, thresholdend:125.11, # hashes 3, # space: 466656 # cm buckets 38888 - loss 0.0 time: 0.04768991470336914 sec 
+thresholdstart:5.0, thresholdend:25.01, # hashes 3, # space: 466656 # cm buckets 38888 - loss 0.014756526238780937 time: 0.1456758975982666 sec 
+thresholdstart:1.0, thresholdend:5.0, # hashes 3, # space: 466656 # cm buckets 38888 - loss 4.214575709578168 time: 4.207038164138794 sec 
+thresholdstart:0.0, thresholdend:1.0, # hashes 4, # space: 466656 # cm buckets 29166 - loss 0 time: 0.046599388122558594 sec 
+thresholdstart:25.01, thresholdend:125.11, # hashes 4, # space: 466656 # cm buckets 29166 - loss 0.0 time: 0.03728747367858887 sec 
+thresholdstart:625.72, thresholdend:3129.53, # hashes 4, # space: 466656 # cm buckets 29166 - loss 0.0 time: 0.023509740829467773 sec 
+thresholdstart:125.11, thresholdend:625.72, # hashes 4, # space: 466656 # cm buckets 29166 - loss 0.0 time: 0.03406882286071777 sec 
+thresholdstart:5.0, thresholdend:25.01, # hashes 4, # space: 466656 # cm buckets 29166 - loss 0.01090234284388773 time: 0.11593389511108398 sec 
+thresholdstart:1.0, thresholdend:5.0, # hashes 4, # space: 466656 # cm buckets 29166 - loss 5.455342545560471 time: 3.0717568397521973 sec 
+thresholdstart:0.0, thresholdend:1.0, # hashes 1, # space: 533332 # cm buckets 133333 - loss 0 time: 0.06163525581359863 sec 
+thresholdstart:625.72, thresholdend:3129.53, # hashes 1, # space: 533332 # cm buckets 133333 - loss 0.0 time: 0.041944265365600586 sec 
+thresholdstart:25.01, thresholdend:125.11, # hashes 1, # space: 533332 # cm buckets 133333 - loss 0.2916578221184462 time: 0.07164621353149414 sec 
+thresholdstart:125.11, thresholdend:625.72, # hashes 1, # space: 533332 # cm buckets 133333 - loss 0.0 time: 0.05509591102600098 sec 
+thresholdstart:5.0, thresholdend:25.01, # hashes 1, # space: 533332 # cm buckets 133333 - loss 0.4393055332512535 time: 0.214599609375 sec 
+thresholdstart:1.0, thresholdend:5.0, # hashes 1, # space: 533332 # cm buckets 133333 - loss 2.065570666521019 time: 2.633718729019165 sec 
+thresholdstart:0.0, thresholdend:1.0, # hashes 2, # space: 533328 # cm buckets 66666 - loss 0 time: 0.030321359634399414 sec 
+thresholdstart:25.01, thresholdend:125.11, # hashes 2, # space: 533328 # cm buckets 66666 - loss 0.0 time: 0.029690265655517578 sec 
+thresholdstart:125.11, thresholdend:625.72, # hashes 2, # space: 533328 # cm buckets 66666 - loss 0.0 time: 0.027125120162963867 sec 
+thresholdstart:625.72, thresholdend:3129.53, # hashes 2, # space: 533328 # cm buckets 66666 - loss 0.0 time: 0.023468017578125 sec 
+thresholdstart:5.0, thresholdend:25.01, # hashes 2, # space: 533328 # cm buckets 66666 - loss 0.040468925646378676 time: 0.09515094757080078 sec 
+thresholdstart:1.0, thresholdend:5.0, # hashes 2, # space: 533328 # cm buckets 66666 - loss 2.622087497951827 time: 2.173920154571533 sec 
+thresholdstart:0.0, thresholdend:1.0, # hashes 3, # space: 533328 # cm buckets 44444 - loss 0 time: 0.03532886505126953 sec 
+thresholdstart:125.11, thresholdend:625.72, # hashes 3, # space: 533328 # cm buckets 44444 - loss 0.0 time: 0.02176046371459961 sec 
+thresholdstart:25.01, thresholdend:125.11, # hashes 3, # space: 533328 # cm buckets 44444 - loss 0.0 time: 0.033667802810668945 sec 
+thresholdstart:625.72, thresholdend:3129.53, # hashes 3, # space: 533328 # cm buckets 44444 - loss 0.0 time: 0.023668289184570312 sec 
+thresholdstart:5.0, thresholdend:25.01, # hashes 3, # space: 533328 # cm buckets 44444 - loss 0.0134717984404832 time: 0.1223745346069336 sec 
+thresholdstart:1.0, thresholdend:5.0, # hashes 3, # space: 533328 # cm buckets 44444 - loss 3.5215431390755003 time: 3.0768120288848877 sec 
+thresholdstart:0.0, thresholdend:1.0, # hashes 4, # space: 533328 # cm buckets 33333 - loss 0 time: 0.034189462661743164 sec 
+thresholdstart:25.01, thresholdend:125.11, # hashes 4, # space: 533328 # cm buckets 33333 - loss 0.0 time: 0.03565692901611328 sec 
+thresholdstart:125.11, thresholdend:625.72, # hashes 4, # space: 533328 # cm buckets 33333 - loss 0.0 time: 0.029816150665283203 sec 
+thresholdstart:625.72, thresholdend:3129.53, # hashes 4, # space: 533328 # cm buckets 33333 - loss 0.0 time: 0.021319866180419922 sec 
+thresholdstart:5.0, thresholdend:25.01, # hashes 4, # space: 533328 # cm buckets 33333 - loss 0.0068161947076352085 time: 0.13426780700683594 sec 
+thresholdstart:1.0, thresholdend:5.0, # hashes 4, # space: 533328 # cm buckets 33333 - loss 4.550523421996468 time: 3.6200079917907715 sec 
+thresholdstart:0.0, thresholdend:1.0, # hashes 1, # space: 600000 # cm buckets 150000 - loss 0 time: 0.036255836486816406 sec 
+thresholdstart:125.11, thresholdend:625.72, # hashes 1, # space: 600000 # cm buckets 150000 - loss 0.0 time: 0.01947474479675293 sec 
+thresholdstart:25.01, thresholdend:125.11, # hashes 1, # space: 600000 # cm buckets 150000 - loss 0.0 time: 0.034928083419799805 sec 
+thresholdstart:625.72, thresholdend:3129.53, # hashes 1, # space: 600000 # cm buckets 150000 - loss 0.0 time: 0.021961212158203125 sec 
+thresholdstart:5.0, thresholdend:25.01, # hashes 1, # space: 600000 # cm buckets 150000 - loss 0.3913423621148047 time: 0.09632682800292969 sec 
+thresholdstart:1.0, thresholdend:5.0, # hashes 1, # space: 600000 # cm buckets 150000 - loss 1.828659857629217 time: 2.3669369220733643 sec 
+thresholdstart:0.0, thresholdend:1.0, # hashes 2, # space: 600000 # cm buckets 75000 - loss 0 time: 0.04225659370422363 sec 
+thresholdstart:25.01, thresholdend:125.11, # hashes 2, # space: 600000 # cm buckets 75000 - loss 0.0 time: 0.03867697715759277 sec 
+thresholdstart:125.11, thresholdend:625.72, # hashes 2, # space: 600000 # cm buckets 75000 - loss 0.0 time: 0.027385473251342773 sec 
+thresholdstart:625.72, thresholdend:3129.53, # hashes 2, # space: 600000 # cm buckets 75000 - loss 0.0 time: 0.02508854866027832 sec 
+thresholdstart:5.0, thresholdend:25.01, # hashes 2, # space: 600000 # cm buckets 75000 - loss 0.04428742215798583 time: 0.1136019229888916 sec 
+thresholdstart:1.0, thresholdend:5.0, # hashes 2, # space: 600000 # cm buckets 75000 - loss 2.2544431700256706 time: 2.364920139312744 sec 
+thresholdstart:0.0, thresholdend:1.0, # hashes 3, # space: 600000 # cm buckets 50000 - loss 0 time: 0.034232378005981445 sec 
+thresholdstart:125.11, thresholdend:625.72, # hashes 3, # space: 600000 # cm buckets 50000 - loss 0.0 time: 0.03191041946411133 sec 
+thresholdstart:25.01, thresholdend:125.11, # hashes 3, # space: 600000 # cm buckets 50000 - loss 0.0 time: 0.05138397216796875 sec 
+thresholdstart:625.72, thresholdend:3129.53, # hashes 3, # space: 600000 # cm buckets 50000 - loss 0.0 time: 0.024819135665893555 sec 
+thresholdstart:5.0, thresholdend:25.01, # hashes 3, # space: 600000 # cm buckets 50000 - loss 0.009117998679585319 time: 0.12447285652160645 sec 
+thresholdstart:1.0, thresholdend:5.0, # hashes 3, # space: 600000 # cm buckets 50000 - loss 2.9988530231033916 time: 4.828294277191162 sec 
+thresholdstart:0.0, thresholdend:1.0, # hashes 4, # space: 600000 # cm buckets 37500 - loss 0 time: 0.05062150955200195 sec 
+thresholdstart:25.01, thresholdend:125.11, # hashes 4, # space: 600000 # cm buckets 37500 - loss 0.0 time: 0.06395339965820312 sec 
+thresholdstart:125.11, thresholdend:625.72, # hashes 4, # space: 600000 # cm buckets 37500 - loss 0.0 time: 0.05597710609436035 sec 
+thresholdstart:625.72, thresholdend:3129.53, # hashes 4, # space: 600000 # cm buckets 37500 - loss 0.0 time: 0.040865182876586914 sec 
+thresholdstart:5.0, thresholdend:25.01, # hashes 4, # space: 600000 # cm buckets 37500 - loss 0.001873561372517531 time: 0.1994338035583496 sec 
+thresholdstart:1.0, thresholdend:5.0, # hashes 4, # space: 600000 # cm buckets 37500 - loss 3.8715058168114043 time: 7.0254480838775635 sec 
+thresholdstart:0.0, thresholdend:1.0, # hashes 1, # space: 666664 # cm buckets 166666 - loss 0 time: 0.03856921195983887 sec 
+thresholdstart:125.11, thresholdend:625.72, # hashes 1, # space: 666664 # cm buckets 166666 - loss 0.0 time: 0.03248000144958496 sec 
+thresholdstart:25.01, thresholdend:125.11, # hashes 1, # space: 666664 # cm buckets 166666 - loss 0.0 time: 0.04654884338378906 sec 
+thresholdstart:625.72, thresholdend:3129.53, # hashes 1, # space: 666664 # cm buckets 166666 - loss 0.0 time: 0.02981257438659668 sec 
+thresholdstart:5.0, thresholdend:25.01, # hashes 1, # space: 666664 # cm buckets 166666 - loss 0.328676195064504 time: 0.11702775955200195 sec 
+thresholdstart:1.0, thresholdend:5.0, # hashes 1, # space: 666664 # cm buckets 166666 - loss 1.6440803247947275 time: 2.114570379257202 sec 
+thresholdstart:0.0, thresholdend:1.0, # hashes 2, # space: 666664 # cm buckets 83333 - loss 0 time: 0.03538703918457031 sec 
+thresholdstart:125.11, thresholdend:625.72, # hashes 2, # space: 666664 # cm buckets 83333 - loss 0.0 time: 0.028844833374023438 sec 
+thresholdstart:25.01, thresholdend:125.11, # hashes 2, # space: 666664 # cm buckets 83333 - loss 0.0 time: 0.04021000862121582 sec 
+thresholdstart:625.72, thresholdend:3129.53, # hashes 2, # space: 666664 # cm buckets 83333 - loss 0.0 time: 0.02671074867248535 sec 
+thresholdstart:5.0, thresholdend:25.01, # hashes 2, # space: 666664 # cm buckets 83333 - loss 0.028692254161982764 time: 0.12802815437316895 sec 
+thresholdstart:1.0, thresholdend:5.0, # hashes 2, # space: 666664 # cm buckets 83333 - loss 1.9669889125566662 time: 2.5079596042633057 sec 
+thresholdstart:0.0, thresholdend:1.0, # hashes 3, # space: 666660 # cm buckets 55555 - loss 0 time: 0.03907418251037598 sec 
+thresholdstart:125.11, thresholdend:625.72, # hashes 3, # space: 666660 # cm buckets 55555 - loss 0.0 time: 0.032913923263549805 sec 
+thresholdstart:25.01, thresholdend:125.11, # hashes 3, # space: 666660 # cm buckets 55555 - loss 0.0 time: 0.06141257286071777 sec 
+thresholdstart:625.72, thresholdend:3129.53, # hashes 3, # space: 666660 # cm buckets 55555 - loss 0.0 time: 0.030866384506225586 sec 
+thresholdstart:5.0, thresholdend:25.01, # hashes 3, # space: 666660 # cm buckets 55555 - loss 0.006655603732847992 time: 0.17276573181152344 sec 
+thresholdstart:1.0, thresholdend:5.0, # hashes 3, # space: 666660 # cm buckets 55555 - loss 2.593187321353797 time: 3.0265450477600098 sec 
+thresholdstart:0.0, thresholdend:1.0, # hashes 4, # space: 666656 # cm buckets 41666 - loss 0 time: 0.04142260551452637 sec 
+thresholdstart:125.11, thresholdend:625.72, # hashes 4, # space: 666656 # cm buckets 41666 - loss 0.0 time: 0.03204631805419922 sec 
+thresholdstart:625.72, thresholdend:3129.53, # hashes 4, # space: 666656 # cm buckets 41666 - loss 0.0 time: 0.030279159545898438 sec 
+thresholdstart:25.01, thresholdend:125.11, # hashes 4, # space: 666656 # cm buckets 41666 - loss 0.0 time: 0.047975778579711914 sec 
+thresholdstart:5.0, thresholdend:25.01, # hashes 4, # space: 666656 # cm buckets 41666 - loss 0.0038184965116071588 time: 0.14710187911987305 sec 
+thresholdstart:1.0, thresholdend:5.0, # hashes 4, # space: 666656 # cm buckets 41666 - loss 3.3371966428168296 time: 3.8936421871185303 sec 
+thresholdstart:0.0, thresholdend:1.0, # hashes 1, # space: 800000 # cm buckets 200000 - loss 0 time: 0.04510998725891113 sec 
+thresholdstart:125.11, thresholdend:625.72, # hashes 1, # space: 800000 # cm buckets 200000 - loss 0.0 time: 0.023965120315551758 sec 
+thresholdstart:25.01, thresholdend:125.11, # hashes 1, # space: 800000 # cm buckets 200000 - loss 0.23672256421142007 time: 0.037593841552734375 sec 
+thresholdstart:625.72, thresholdend:3129.53, # hashes 1, # space: 800000 # cm buckets 200000 - loss 0.0 time: 0.02983379364013672 sec 
+thresholdstart:5.0, thresholdend:25.01, # hashes 1, # space: 800000 # cm buckets 200000 - loss 0.29994825401923525 time: 0.08028793334960938 sec 
+thresholdstart:1.0, thresholdend:5.0, # hashes 1, # space: 800000 # cm buckets 200000 - loss 1.3787026416880588 time: 1.932011604309082 sec 
+thresholdstart:0.0, thresholdend:1.0, # hashes 2, # space: 800000 # cm buckets 100000 - loss 0 time: 0.08101654052734375 sec 
+thresholdstart:25.01, thresholdend:125.11, # hashes 2, # space: 800000 # cm buckets 100000 - loss 0.0 time: 0.08415770530700684 sec 
+thresholdstart:125.11, thresholdend:625.72, # hashes 2, # space: 800000 # cm buckets 100000 - loss 0.0 time: 0.058296918869018555 sec 
+thresholdstart:625.72, thresholdend:3129.53, # hashes 2, # space: 800000 # cm buckets 100000 - loss 0.0 time: 0.05654287338256836 sec 
+thresholdstart:5.0, thresholdend:25.01, # hashes 2, # space: 800000 # cm buckets 100000 - loss 0.022571953678425495 time: 0.17718219757080078 sec 
+thresholdstart:1.0, thresholdend:5.0, # hashes 2, # space: 800000 # cm buckets 100000 - loss 1.5528392229686676 time: 3.0362558364868164 sec 
+thresholdstart:0.0, thresholdend:1.0, # hashes 3, # space: 799992 # cm buckets 66666 - loss 0 time: 0.027194976806640625 sec 
+thresholdstart:125.11, thresholdend:625.72, # hashes 3, # space: 799992 # cm buckets 66666 - loss 0.0 time: 0.027920961380004883 sec 
+thresholdstart:625.72, thresholdend:3129.53, # hashes 3, # space: 799992 # cm buckets 66666 - loss 0.0 time: 0.022592782974243164 sec 
+thresholdstart:25.01, thresholdend:125.11, # hashes 3, # space: 799992 # cm buckets 66666 - loss 0.0 time: 0.04053378105163574 sec 
+thresholdstart:5.0, thresholdend:25.01, # hashes 3, # space: 799992 # cm buckets 66666 - loss 0.010045857645022572 time: 0.11493301391601562 sec 
+thresholdstart:1.0, thresholdend:5.0, # hashes 3, # space: 799992 # cm buckets 66666 - loss 1.995237314981703 time: 2.9805359840393066 sec 
+thresholdstart:0.0, thresholdend:1.0, # hashes 4, # space: 800000 # cm buckets 50000 - loss 0 time: 0.0343937873840332 sec 
+thresholdstart:125.11, thresholdend:625.72, # hashes 4, # space: 800000 # cm buckets 50000 - loss 0.0 time: 0.02870464324951172 sec 
+thresholdstart:625.72, thresholdend:3129.53, # hashes 4, # space: 800000 # cm buckets 50000 - loss 0.0 time: 0.032319068908691406 sec 
+thresholdstart:25.01, thresholdend:125.11, # hashes 4, # space: 800000 # cm buckets 50000 - loss 0.0 time: 0.056704044342041016 sec 
+thresholdstart:5.0, thresholdend:25.01, # hashes 4, # space: 800000 # cm buckets 50000 - loss 0.0016237531895151936 time: 0.1762700080871582 sec 
+thresholdstart:1.0, thresholdend:5.0, # hashes 4, # space: 800000 # cm buckets 50000 - loss 2.5548819342035793 time: 4.3118016719818115 sec 
+thresholdstart:0.0, thresholdend:1.0, # hashes 1, # space: 933332 # cm buckets 233333 - loss 0 time: 0.03322100639343262 sec 
+thresholdstart:125.11, thresholdend:625.72, # hashes 1, # space: 933332 # cm buckets 233333 - loss 0.0 time: 0.03153061866760254 sec 
+thresholdstart:25.01, thresholdend:125.11, # hashes 1, # space: 933332 # cm buckets 233333 - loss 0.0 time: 0.04009437561035156 sec 
+thresholdstart:625.72, thresholdend:3129.53, # hashes 1, # space: 933332 # cm buckets 233333 - loss 0.0 time: 0.03215742111206055 sec 
+thresholdstart:5.0, thresholdend:25.01, # hashes 1, # space: 933332 # cm buckets 233333 - loss 0.18621415698659957 time: 0.09775185585021973 sec 
+thresholdstart:1.0, thresholdend:5.0, # hashes 1, # space: 933332 # cm buckets 233333 - loss 1.1813060971835345 time: 1.76566743850708 sec 
+thresholdstart:0.0, thresholdend:1.0, # hashes 2, # space: 933328 # cm buckets 116666 - loss 0 time: 0.032796621322631836 sec 
+thresholdstart:25.01, thresholdend:125.11, # hashes 2, # space: 933328 # cm buckets 116666 - loss 0.0 time: 0.030994415283203125 sec 
+thresholdstart:125.11, thresholdend:625.72, # hashes 2, # space: 933328 # cm buckets 116666 - loss 0.0 time: 0.03333783149719238 sec 
+thresholdstart:625.72, thresholdend:3129.53, # hashes 2, # space: 933328 # cm buckets 116666 - loss 0.0 time: 0.017054319381713867 sec 
+thresholdstart:5.0, thresholdend:25.01, # hashes 2, # space: 933328 # cm buckets 116666 - loss 0.017665007226593865 time: 0.12210202217102051 sec 
+thresholdstart:1.0, thresholdend:5.0, # hashes 2, # space: 933328 # cm buckets 116666 - loss 1.2557976951226173 time: 2.5289418697357178 sec 
+thresholdstart:0.0, thresholdend:1.0, # hashes 3, # space: 933324 # cm buckets 77777 - loss 0 time: 0.03374958038330078 sec 
+thresholdstart:125.11, thresholdend:625.72, # hashes 3, # space: 933324 # cm buckets 77777 - loss 0.0 time: 0.0314028263092041 sec 
+thresholdstart:25.01, thresholdend:125.11, # hashes 3, # space: 933324 # cm buckets 77777 - loss 0.0 time: 0.04297900199890137 sec 
+thresholdstart:625.72, thresholdend:3129.53, # hashes 3, # space: 933324 # cm buckets 77777 - loss 0.0 time: 0.026726961135864258 sec 
+thresholdstart:5.0, thresholdend:25.01, # hashes 3, # space: 933324 # cm buckets 77777 - loss 0.005852648858911907 time: 0.18161296844482422 sec 
+thresholdstart:1.0, thresholdend:5.0, # hashes 3, # space: 933324 # cm buckets 77777 - loss 1.5864511078340342 time: 3.082533836364746 sec 
+thresholdstart:0.0, thresholdend:1.0, # hashes 4, # space: 933328 # cm buckets 58333 - loss 0 time: 0.039933204650878906 sec 
+thresholdstart:125.11, thresholdend:625.72, # hashes 4, # space: 933328 # cm buckets 58333 - loss 0.0 time: 0.022181987762451172 sec 
+thresholdstart:25.01, thresholdend:125.11, # hashes 4, # space: 933328 # cm buckets 58333 - loss 0.0 time: 0.03889346122741699 sec 
+thresholdstart:625.72, thresholdend:3129.53, # hashes 4, # space: 933328 # cm buckets 58333 - loss 0.0 time: 0.021633148193359375 sec 
+thresholdstart:5.0, thresholdend:25.01, # hashes 4, # space: 933328 # cm buckets 58333 - loss 0.0 time: 0.16985297203063965 sec 
+thresholdstart:1.0, thresholdend:5.0, # hashes 4, # space: 933328 # cm buckets 58333 - loss 2.0237406011615415 time: 3.196596145629883 sec 
+thresholdstart:0.0, thresholdend:1.0, # hashes 1, # space: 1066664 # cm buckets 266666 - loss 0 time: 0.03638052940368652 sec 
+thresholdstart:125.11, thresholdend:625.72, # hashes 1, # space: 1066664 # cm buckets 266666 - loss 0.0 time: 0.018498897552490234 sec 
+thresholdstart:25.01, thresholdend:125.11, # hashes 1, # space: 1066664 # cm buckets 266666 - loss 0.09271916790490342 time: 0.03680253028869629 sec 
+thresholdstart:625.72, thresholdend:3129.53, # hashes 1, # space: 1066664 # cm buckets 266666 - loss 0.0 time: 0.027823925018310547 sec 
+thresholdstart:5.0, thresholdend:25.01, # hashes 1, # space: 1066664 # cm buckets 266666 - loss 0.22047356494120585 time: 0.0835423469543457 sec 
+thresholdstart:1.0, thresholdend:5.0, # hashes 1, # space: 1066664 # cm buckets 266666 - loss 1.02967211025543 time: 1.898423194885254 sec 
+thresholdstart:0.0, thresholdend:1.0, # hashes 2, # space: 1066664 # cm buckets 133333 - loss 0 time: 0.0316014289855957 sec 
+thresholdstart:25.01, thresholdend:125.11, # hashes 2, # space: 1066664 # cm buckets 133333 - loss 0.0 time: 0.035230159759521484 sec 
+thresholdstart:125.11, thresholdend:625.72, # hashes 2, # space: 1066664 # cm buckets 133333 - loss 0.0 time: 0.03161215782165527 sec 
+thresholdstart:625.72, thresholdend:3129.53, # hashes 2, # space: 1066664 # cm buckets 133333 - loss 0.0 time: 0.028282642364501953 sec 
+thresholdstart:5.0, thresholdend:25.01, # hashes 2, # space: 1066664 # cm buckets 133333 - loss 0.021929589779276625 time: 0.10548114776611328 sec 
+thresholdstart:1.0, thresholdend:5.0, # hashes 2, # space: 1066664 # cm buckets 133333 - loss 1.0400859322373333 time: 2.552981376647949 sec 
+thresholdstart:0.0, thresholdend:1.0, # hashes 3, # space: 1066656 # cm buckets 88888 - loss 0 time: 0.03212451934814453 sec 
+thresholdstart:25.01, thresholdend:125.11, # hashes 3, # space: 1066656 # cm buckets 88888 - loss 0.0 time: 0.03736519813537598 sec 
+thresholdstart:125.11, thresholdend:625.72, # hashes 3, # space: 1066656 # cm buckets 88888 - loss 0.0 time: 0.028553485870361328 sec 
+thresholdstart:625.72, thresholdend:3129.53, # hashes 3, # space: 1066656 # cm buckets 88888 - loss 0.0 time: 0.02883744239807129 sec 
+thresholdstart:5.0, thresholdend:25.01, # hashes 3, # space: 1066656 # cm buckets 88888 - loss 0.0 time: 0.14071273803710938 sec 
+thresholdstart:1.0, thresholdend:5.0, # hashes 3, # space: 1066656 # cm buckets 88888 - loss 1.2938591221075246 time: 3.0233428478240967 sec 
+thresholdstart:0.0, thresholdend:1.0, # hashes 4, # space: 1066656 # cm buckets 66666 - loss 0 time: 0.027405500411987305 sec 
+thresholdstart:125.11, thresholdend:625.72, # hashes 4, # space: 1066656 # cm buckets 66666 - loss 0.0 time: 0.023409366607666016 sec 
+thresholdstart:25.01, thresholdend:125.11, # hashes 4, # space: 1066656 # cm buckets 66666 - loss 0.0 time: 0.0395352840423584 sec 
+thresholdstart:625.72, thresholdend:3129.53, # hashes 4, # space: 1066656 # cm buckets 66666 - loss 0.0 time: 0.028768539428710938 sec 
+thresholdstart:5.0, thresholdend:25.01, # hashes 4, # space: 1066656 # cm buckets 66666 - loss 0.0 time: 0.16551923751831055 sec 
+thresholdstart:1.0, thresholdend:5.0, # hashes 4, # space: 1066656 # cm buckets 66666 - loss 1.6341726291259309 time: 3.152512550354004 sec 
+thresholdstart:0.0, thresholdend:1.0, # hashes 1, # space: 1200000 # cm buckets 300000 - loss 0 time: 0.039818525314331055 sec 
+thresholdstart:125.11, thresholdend:625.72, # hashes 1, # space: 1200000 # cm buckets 300000 - loss 0.0 time: 0.02559518814086914 sec 
+thresholdstart:25.01, thresholdend:125.11, # hashes 1, # space: 1200000 # cm buckets 300000 - loss 0.0 time: 0.04173779487609863 sec 
+thresholdstart:625.72, thresholdend:3129.53, # hashes 1, # space: 1200000 # cm buckets 300000 - loss 0.0 time: 0.03321099281311035 sec 
+thresholdstart:5.0, thresholdend:25.01, # hashes 1, # space: 1200000 # cm buckets 300000 - loss 0.13379012543939475 time: 0.11317014694213867 sec 
+thresholdstart:1.0, thresholdend:5.0, # hashes 1, # space: 1200000 # cm buckets 300000 - loss 0.9156007063921204 time: 2.02950119972229 sec 
+thresholdstart:0.0, thresholdend:1.0, # hashes 2, # space: 1200000 # cm buckets 150000 - loss 0 time: 0.025530099868774414 sec 
+thresholdstart:25.01, thresholdend:125.11, # hashes 2, # space: 1200000 # cm buckets 150000 - loss 0.0 time: 0.042456865310668945 sec 
+thresholdstart:125.11, thresholdend:625.72, # hashes 2, # space: 1200000 # cm buckets 150000 - loss 0.0 time: 0.033200979232788086 sec 
+thresholdstart:625.72, thresholdend:3129.53, # hashes 2, # space: 1200000 # cm buckets 150000 - loss 0.0 time: 0.02730417251586914 sec 
+thresholdstart:5.0, thresholdend:25.01, # hashes 2, # space: 1200000 # cm buckets 150000 - loss 0.005317345609621184 time: 0.11271953582763672 sec 
+thresholdstart:1.0, thresholdend:5.0, # hashes 2, # space: 1200000 # cm buckets 150000 - loss 0.88147905401715 time: 2.6121678352355957 sec 
+Big error: 12.826286868992495
+====================================
+Count-min sketch error rate: 3.694090674123297
+====================================
+Big error: 21.598219158098345
+====================================
+Count-min sketch error rate: 4.216486009443994
+====================================
+Big error: 31.221346329444945
+====================================
+Count-min sketch error rate: 5.70788704705123
+====================================
+Big error: 41.11348274539256
+====================================
+Count-min sketch error rate: 7.490051130413356
+====================================
+Big error: 6.413678335431514
+====================================
+Count-min sketch error rate: 1.7664178444874772
+====================================
+Big error: 10.074024346097115
+====================================
+Count-min sketch error rate: 1.705267584282152
+====================================
+Big error: 14.315742836920052
+====================================
+Count-min sketch error rate: 2.1871014224914895
+====================================
+Big error: 18.79013513002415
+====================================
+Count-min sketch error rate: 2.7842184064131303
+====================================
+Big error: 4.330995618134763
+====================================
+Count-min sketch error rate: 1.1633253785230837
+====================================
+Big error: 6.362579086994343
+====================================
+Count-min sketch error rate: 0.9733768303429139
+====================================
+Big error: 8.929309329428737
+====================================
+Count-min sketch error rate: 1.1598220479484893
+====================================
+Big error: 11.676155304974579
+====================================
+Count-min sketch error rate: 1.4787777983120802
+====================================
+Big error: 3.2059314570377295
+====================================
+Count-min sketch error rate: 0.9267702131192767
+====================================
+Big error: 4.543178392163431
+====================================
+Count-min sketch error rate: 0.6419156897249029
+====================================
+Big error: 6.315899525072806
+====================================
+Count-min sketch error rate: 0.7180729539129899
+====================================
+Big error: 8.263433307578843
+====================================
+Count-min sketch error rate: 0.8576758562134568
+====================================
+Big error: 2.542292293644404
+====================================
+Count-min sketch error rate: 1.278099630650393
+====================================
+Big error: 3.4961800508966343
+====================================
+Count-min sketch error rate: 0.4486673684041365
+====================================
+Big error: 4.8054419416363645
+====================================
+Count-min sketch error rate: 0.4704587273910633
+====================================
+Big error: 6.258565168763947
+====================================
+Count-min sketch error rate: 0.5632353847101583
+====================================
+Big error: 2.117159513942544
+====================================
+Count-min sketch error rate: 0.5920092993606689
+====================================
+Big error: 2.793530940507129
+====================================
+Count-min sketch error rate: 0.3321173455039252
+====================================
+Big error: 3.8097103430389936
+====================================
+Count-min sketch error rate: 0.3442718670234279
+====================================
+Big error: 4.951480703043532
+====================================
+Count-min sketch error rate: 0.37045845955233436
+====================================
+Big error: 1.8102722591730107
+====================================
+Count-min sketch error rate: 0.5102274218647468
+====================================
+Big error: 2.3093753545744837
+====================================
+Count-min sketch error rate: 0.2604437016383695
+====================================
+Big error: 3.1291623667475323
+====================================
+Count-min sketch error rate: 0.24350290203262812
+====================================
+Big error: 4.049143348047612
+====================================
+Count-min sketch error rate: 0.28271717033739646
+====================================
+Big error: 1.617583652562932
+====================================
+Count-min sketch error rate: 0.4233673220680364
+====================================
+Big error: 1.951537434960909
+====================================
+Count-min sketch error rate: 0.20869458081899728
+====================================
+Big error: 2.614784877972347
+====================================
+Count-min sketch error rate: 0.18308116317003206
+====================================
+Big error: 3.3772105186377854
+====================================
+Count-min sketch error rate: 0.19125560117741905
+====================================
+Big error: 1.4159908364445837
+====================================
+Count-min sketch error rate: 0.38956607447523695
+====================================
+Big error: 1.6793485014669254
+====================================
+Count-min sketch error rate: 0.17381126476126194
+====================================
+Big error: 2.226325230574721
+====================================
+Count-min sketch error rate: 0.1368495201669171
+====================================
+Big error: 2.8726773682873983
+====================================
+Count-min sketch error rate: 0.14878441392868527
+====================================
+Big error: 1.269557653135654
+====================================
+Count-min sketch error rate: 0.3457530151944911
+====================================
+Big error: 1.4637158865577775
+====================================
+Count-min sketch error rate: 0.14669795023020737
+====================================
+Big error: 1.9249760915491054
+====================================
+Count-min sketch error rate: 0.11374039463358322
+====================================
+Big error: 2.4765508074842906
+====================================
+Count-min sketch error rate: 0.10463387784946927
+====================================
+Big error: 1.0833797094245223
+====================================
+Count-min sketch error rate: 0.2969367284570614
+====================================
+Big error: 1.1555183946488294
+====================================
+Count-min sketch error rate: 0.10758546064243797
+====================================
+Big error: 1.481851189479201
+====================================
+Count-min sketch error rate: 0.0719709448546841
+====================================
+Big error: 1.8957942738584728
+====================================
+Count-min sketch error rate: 0.06253230804667893
+====================================
+Big error: 0.9046417514493654
+====================================
+Count-min sketch error rate: 0.24961498182714223
+====================================
+Big error: 0.9343908883137654
+====================================
+Count-min sketch error rate: 0.07396902177261028
+====================================
+Big error: 1.1779248004927572
+====================================
+Count-min sketch error rate: 0.050474208469596285
+====================================
+Big error: 1.5014777313716696
+====================================
+Count-min sketch error rate: 0.04251136305807547
+====================================
+Big error: 0.8032266953387976
+====================================
+Count-min sketch error rate: 0.24509386408255862
+====================================
+Big error: 0.7749931111243186
+====================================
+Count-min sketch error rate: 0.05895666101526949
+====================================
+Big error: 0.9599553708916636
+====================================
+Count-min sketch error rate: 0.03741707043355055
+====================================
+Big error: 1.2124448214565515
+====================================
+Count-min sketch error rate: 0.026494607067192703
+====================================
+Big error: 0.699569377731912
+====================================
+Count-min sketch error rate: 0.20312889203152998
+====================================
+Big error: 0.6548024918819327
+====================================
+Count-min sketch error rate: 0.04772350472333599
+thresholdstart:0.0, thresholdend:1.0, # hashes 3, # space: 1200000 # cm buckets 100000 - loss 0 time: 0.028890132904052734 sec 
+thresholdstart:125.11, thresholdend:625.72, # hashes 3, # space: 1200000 # cm buckets 100000 - loss 0.0 time: 0.020099163055419922 sec 
+thresholdstart:625.72, thresholdend:3129.53, # hashes 3, # space: 1200000 # cm buckets 100000 - loss 0.0 time: 0.01924920082092285 sec 
+thresholdstart:25.01, thresholdend:125.11, # hashes 3, # space: 1200000 # cm buckets 100000 - loss 0.0 time: 0.04019451141357422 sec 
+thresholdstart:5.0, thresholdend:25.01, # hashes 3, # space: 1200000 # cm buckets 100000 - loss 0.0039255571614653035 time: 0.12229704856872559 sec 
+thresholdstart:1.0, thresholdend:5.0, # hashes 3, # space: 1200000 # cm buckets 100000 - loss 1.074127478289366 time: 2.7496423721313477 sec 
+thresholdstart:0.0, thresholdend:1.0, # hashes 4, # space: 1200000 # cm buckets 75000 - loss 0 time: 0.03794121742248535 sec 
+thresholdstart:125.11, thresholdend:625.72, # hashes 4, # space: 1200000 # cm buckets 75000 - loss 0.0 time: 0.0239102840423584 sec 
+thresholdstart:25.01, thresholdend:125.11, # hashes 4, # space: 1200000 # cm buckets 75000 - loss 0.0 time: 0.04610037803649902 sec 
+thresholdstart:625.72, thresholdend:3129.53, # hashes 4, # space: 1200000 # cm buckets 75000 - loss 0.0 time: 0.028709888458251953 sec 
+thresholdstart:5.0, thresholdend:25.01, # hashes 4, # space: 1200000 # cm buckets 75000 - loss 0.0 time: 0.1485745906829834 sec 
+thresholdstart:1.0, thresholdend:5.0, # hashes 4, # space: 1200000 # cm buckets 75000 - loss 1.3476942123181677 time: 3.167072296142578 sec 
+thresholdstart:0.0, thresholdend:1.0, # hashes 1, # space: 1333332 # cm buckets 333333 - loss 0 time: 0.05380845069885254 sec 
+thresholdstart:625.72, thresholdend:3129.53, # hashes 1, # space: 1333332 # cm buckets 333333 - loss 0.0 time: 0.02103137969970703 sec 
+thresholdstart:125.11, thresholdend:625.72, # hashes 1, # space: 1333332 # cm buckets 333333 - loss 0.0 time: 0.033149003982543945 sec 
+thresholdstart:25.01, thresholdend:125.11, # hashes 1, # space: 1333332 # cm buckets 333333 - loss 0.0 time: 0.04607272148132324 sec 
+thresholdstart:5.0, thresholdend:25.01, # hashes 1, # space: 1333332 # cm buckets 333333 - loss 0.13810823831700658 time: 0.10197973251342773 sec 
+thresholdstart:1.0, thresholdend:5.0, # hashes 1, # space: 1333332 # cm buckets 333333 - loss 0.8240464616673039 time: 2.050616979598999 sec 
+thresholdstart:0.0, thresholdend:1.0, # hashes 2, # space: 1333328 # cm buckets 166666 - loss 0 time: 0.03991103172302246 sec 
+thresholdstart:25.01, thresholdend:125.11, # hashes 2, # space: 1333328 # cm buckets 166666 - loss 0.0 time: 0.04894614219665527 sec 
+thresholdstart:125.11, thresholdend:625.72, # hashes 2, # space: 1333328 # cm buckets 166666 - loss 0.0 time: 0.037224531173706055 sec 
+thresholdstart:625.72, thresholdend:3129.53, # hashes 2, # space: 1333328 # cm buckets 166666 - loss 0.0 time: 0.037667036056518555 sec 
+thresholdstart:5.0, thresholdend:25.01, # hashes 2, # space: 1333328 # cm buckets 166666 - loss 0.006798351265992184 time: 0.14790630340576172 sec 
+thresholdstart:1.0, thresholdend:5.0, # hashes 2, # space: 1333328 # cm buckets 166666 - loss 0.752052724525279 time: 3.1271960735321045 sec 
+thresholdstart:0.0, thresholdend:1.0, # hashes 3, # space: 1333332 # cm buckets 111111 - loss 0 time: 0.02397751808166504 sec 
+thresholdstart:125.11, thresholdend:625.72, # hashes 3, # space: 1333332 # cm buckets 111111 - loss 0.0 time: 0.046610355377197266 sec 
+thresholdstart:25.01, thresholdend:125.11, # hashes 3, # space: 1333332 # cm buckets 111111 - loss 0.0 time: 0.06669092178344727 sec 
+thresholdstart:625.72, thresholdend:3129.53, # hashes 3, # space: 1333332 # cm buckets 111111 - loss 0.0 time: 0.05241894721984863 sec 
+thresholdstart:5.0, thresholdend:25.01, # hashes 3, # space: 1333332 # cm buckets 111111 - loss 0.0014274753314419285 time: 0.1750028133392334 sec 
+thresholdstart:1.0, thresholdend:5.0, # hashes 3, # space: 1333332 # cm buckets 111111 - loss 0.9005880532342928 time: 3.5298612117767334 sec 
+thresholdstart:0.0, thresholdend:1.0, # hashes 4, # space: 1333328 # cm buckets 83333 - loss 0 time: 0.03271889686584473 sec 
+thresholdstart:125.11, thresholdend:625.72, # hashes 4, # space: 1333328 # cm buckets 83333 - loss 0.0 time: 0.03367900848388672 sec 
+thresholdstart:25.01, thresholdend:125.11, # hashes 4, # space: 1333328 # cm buckets 83333 - loss 0.0 time: 0.043695926666259766 sec 
+thresholdstart:625.72, thresholdend:3129.53, # hashes 4, # space: 1333328 # cm buckets 83333 - loss 0.0 time: 0.03240227699279785 sec 
+thresholdstart:5.0, thresholdend:25.01, # hashes 4, # space: 1333328 # cm buckets 83333 - loss 0.0 time: 0.17028021812438965 sec 
+thresholdstart:1.0, thresholdend:5.0, # hashes 4, # space: 1333328 # cm buckets 83333 - loss 1.1222823019644255 time: 3.882209300994873 sec 
+====================================
+Big error: 0.7975237868825001
+====================================
+Count-min sketch error rate: 0.02586518605417306
+====================================
+Big error: 0.9998973422447469
+====================================
+Count-min sketch error rate: 0.019032620078798156
+====================================
+Big error: 0.632296129802627
+====================================
+Count-min sketch error rate: 0.16779560690916784
+====================================
+Big error: 0.5590011940717848
+====================================
+Count-min sketch error rate: 0.039396398640450615
+====================================
+Big error: 0.6683911368535939
+====================================
+Count-min sketch error rate: 0.022182403531185804
+====================================
+Big error: 0.8326570528579379
+====================================
+Count-min sketch error rate: 0.013986538425483247
+====================================

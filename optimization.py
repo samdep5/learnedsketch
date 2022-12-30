@@ -164,9 +164,9 @@ def findBuckets(k=4, N=1000, epsilon=.01/1000, delta=0.05, z=1.51, verbose=False
             arr.append(gt)
     return (res, arr)
 
-res, Gts = findBuckets(k=3, verbose=True)
-print(res)
-print(Gts)
+# res, Gts = findBuckets(k=3, verbose=True)
+# print(res)
+# print(Gts)
 
 def getThresholdsFromGts(Gts, file=None):
     if file != None:
@@ -207,7 +207,7 @@ def getThresholdsFromGts(Gts, file=None):
 
     return thresholds
 
-def getGtsFromThresholds(thresholds, file='test.txt'):
+def getGtsFromThresholds(thresholds, file='predictionsDay50.txt'):
     if file != None:
         data = []
         with open(file, 'r') as f:
@@ -237,7 +237,7 @@ def getGtsFromThresholds(thresholds, file='test.txt'):
 
     for i in range(len(thresholds)):
         thres = thresholds[i]
-        print(np.where(data == thres))
+        # print(np.where(data == thres))
         idx = np.where(data == thres)[0][0]
         # percentileIdx = int(len(data)*gt)
         # #print('percentileIdx: ', percentileIdx, 'len(data)', len(data), 'gt', gt, 'i', i)
@@ -287,7 +287,7 @@ def getSizeProportionsFromThresholds(thresholds, z, k=4):
 #thresholds = getThresholdsFromGts(Gts, file='test.txt')
 
 thresholds = [1.2, 1.9]
-Gts = getGtsFromThresholds(thresholds, file='test.txt')
+Gts = getGtsFromThresholds(thresholds, file='predictionsDay50.txt')
 epsilons = getEpsilonsFromGts(Gts, k=3)#, epsilon=.01/1000, z=1.5)
 sizes = getSizeProportionsFromEpsilons(epsilons, z=1.75, k=3)
 

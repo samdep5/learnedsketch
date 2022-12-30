@@ -1,24 +1,5 @@
 import numpy as np
 
-def compute_avg_loss_partitioned(counts, y, y_buckets):
-    """ Compute the loss of a sketch.
-    Args:
-        counts: estimated counts in each bucket, float - [num_buckets]
-        y: true counts of each item, float - [num_items]
-        y_bueckets: item -> bucket mapping - [num_items]
-
-    Returns:
-        Estimation error
-    """
-    assert np.sum(counts) == np.sum(y), 'counts do not have all the flows!'
-    assert len(y) == len(y_buckets)
-    if len(y) == 0:
-        return 0    # avoid division of 0
-    loss = 0
-    for i in range(len(y)):
-        loss += np.abs(y[i] - counts[y_buckets[i]]) * y[i]
-    return loss, np.sum(y)
-
 def compute_avg_loss(counts, y, y_buckets):
     """ Compute the loss of a sketch.
     Args:
@@ -66,8 +47,10 @@ def count_min_partitioned(y, n_buckets, n_hash):
     Returns:
         Estimation error
     """
+
     if len(y) == 0:
-        return 0,0
+        # print(n_hash)
+        raise KeyError("Length of y is 0 rip")   # avoid division of 0
 
     counts_all = np.zeros((n_hash, n_buckets))
     y_buckets_all = np.zeros((n_hash, len(y)), dtype=int)
@@ -80,7 +63,7 @@ def count_min_partitioned(y, n_buckets, n_hash):
     for i in range(len(y)):
         y_est = np.min([counts_all[k, y_buckets_all[k, i]] for k in range(n_hash)])
         loss += np.abs(y[i] - y_est) * y[i]
-    return loss,  np.sum(y)
+    return loss / np.sum(y)
 
 def count_min(y, n_buckets, n_hash):
     """ Count-Min
