@@ -1,3 +1,7 @@
+# CS 222 Project: Learned Partitioned Sketch 
+
+This repository was cloned and added on top of as a part of the final project for Harvard's CS222 (Algorithms at the End of the Wire). End results of the project resulted in minimal changes to the error rate of the learned count-min sketch presented by Hsu et al.
+
 # LearnedSketch
 
 This repository contains the code for the paper [Learning-Based Frequency Estimation Algorithms](https://openreview.net/pdf?id=r1lohoCqY7) in ICLR 2019.
